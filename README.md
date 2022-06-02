@@ -40,7 +40,11 @@ Para instalar todas las librerías de un proyecto
 
 ```
 pip install -r requirements.txt
+# En vi versión de windows la instalación con pip falla, lo solucione con
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt
 ```
+
+
 
 Listar librerías
 
